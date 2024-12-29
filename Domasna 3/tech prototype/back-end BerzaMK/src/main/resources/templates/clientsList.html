@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col">User Id</th>
+        <th scope="col">Username</th>
+        <th scope="col">Email</th>
+        <th scope="col">Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="client : ${clients}">
+        <td th:text="${client.getId()}"></td>
+        <td th:text="${cleint.getUsername()}"></td>
+        <td th:text="${client.getEmail()}"></td>
+        <td th:text="${client.getAge()}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
