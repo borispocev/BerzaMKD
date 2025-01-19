@@ -1,0 +1,19 @@
+div {
+    margin-bottom: 10px;
+  }
+  
+  select, input {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #chartContainer {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
